@@ -72,4 +72,4 @@
   </li>
 </ul>
 <pre><h3>Link para pasta com os gráficos no drive: <a href="https://drive.google.com/drive/folders/1v-Vcb8yu-hCSTb-12baKazKUKs9bBoCN?usp=sharing">https://drive.google.com/drive/folders/1v-Vcb8yu-hCSTb-12baKazKUKs9bBoCN?usp=sharing</a></h3></pre>
-<pre><h3>Link para vídeo com descrição dos resultados: <a href="#">#</a></h3></pre>
+<pre><h3>Link para vídeo com descrição dos resultados: <a href="https://www.loom.com/share/c611f8dba0644f34b9092a77dcc29f70">https://www.loom.com/share/c611f8dba0644f34b9092a77dcc29f70</a></h3></pre>
