@@ -61,9 +61,9 @@
       <h4>Eigenvector Centrality</h4>
       <img src="/Imagens/4-eigenvector_centrality.PNG" height="500px" width="500px">
       <h4>Cumulative Density Function</h4>
-      <img src="/Imagens/5-cumulative_density_function.PNG" height="500px" width="500px">
+      <img src="/Imagens/5-cumulative-density-function.PNG" height="500px" width="500px">
       <h4>Probability Desity Function</h4>
-      <img src="/Imagens/6-probability_density_function.PNG" height="500px" width="500px">
+      <img src="/Imagens/6-probability-density_function.PNG" height="500px" width="500px">
       <h4>Indicator comparisons</h4>
       <img src="/Imagens/7-all.PNG" height="500px" width="500px">
       <h4>K-core</h4>
