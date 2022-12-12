@@ -53,21 +53,21 @@
         Analisamos a rede (grafo) do site wikipedia tendo como semente a página com o título "Copa do Mundo FIFA". Realizamos uma limpeza nos nós dessa rede, eliminando duplicações, extraimos o arquivo "cmf.graphml" e em seguida o usamos para plotar e analisar os indicadores à seguir.
       </p>
       <h4>Degree Centrality</h4>
-      <img src="Imagens\1-degree_centrality.PNG height="500px" width="500px">
+      <img src="/Imagens/1-degree_centrality.png" height="500px" width="500px">
       <h4>Closeness Centrality</h4>
-      <img src="../Imagens/2-closeness_centrality.png" height="500px" width="500px">
+      <img src="/Imagens/2-closeness_centrality.png" height="500px" width="500px">
       <h4>Betwenness Centrality</h4>
-      <img src="../Imagens/3-betweenness_centrality.png" height="500px" width="500px">
+      <img src="/Imagens/3-betweenness_centrality.png" height="500px" width="500px">
       <h4>Eigenvector Centrality</h4>
-      <img src="../Imagens/4-eigenvector_centrality.png" height="500px" width="500px">
+      <img src="/Imagens/4-eigenvector_centrality.png" height="500px" width="500px">
       <h4>Cumulative Density Function</h4>
-      <img src="../Imagens/5-cumulative_density_function.png" height="500px" width="500px">
+      <img src="/Imagens/5-cumulative_density_function.png" height="500px" width="500px">
       <h4>Probability Desity Function</h4>
-      <img src="../Imagens/6-probability_density_function.png" height="500px" width="500px">
+      <img src="/Imagens/6-probability_density_function.png" height="500px" width="500px">
       <h4>Indicator comparisons</h4>
-      <img src="../Imagens/7-all.png" height="500px" width="500px">
+      <img src="/Imagens/7-all.png" height="500px" width="500px">
       <h4>K-core</h4>
-      <img src="../Imagens/8-k-core_sociopatterns.png" height="500px" width="500px">    
+      <img src="/Imagens/8-k-core_sociopatterns.png" height="500px" width="500px">    
     </section>
   </li>
 </ul>
