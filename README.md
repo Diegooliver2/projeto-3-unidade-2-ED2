@@ -53,21 +53,21 @@
         Analisamos a rede (grafo) do site wikipedia tendo como semente a página com o título "Copa do Mundo FIFA". Realizamos uma limpeza nos nós dessa rede, eliminando duplicações, extraimos o arquivo "cmf.graphml" e em seguida o usamos para plotar e analisar os indicadores à seguir.
       </p>
       <h4>Degree Centrality</h4>
-      <img src="/Imagens/1-degree_centrality.PNG" style="max-height: 400px;">
+      <img src="/Imagens/1-degree_centrality.PNG" height="400px">
       <h4>Closeness Centrality</h4>
-      <img src="/Imagens/2-closeness_centrality.PNG" style="max-height: 400px;">
+      <img src="/Imagens/2-closeness_centrality.PNG" height="400px">
       <h4>Betwenness Centrality</h4>
-      <img src="/Imagens/3-betweenness_centrality.PNG" style="max-height: 400px;">
+      <img src="/Imagens/3-betweenness_centrality.PNG" height="400px">
       <h4>Eigenvector Centrality</h4>
-      <img src="/Imagens/4-eigenvector_centrality.PNG" style="max-height: 400px;">
+      <img src="/Imagens/4-eigenvector_centrality.PNG" height="400px">
       <h4>Cumulative Density Function</h4>
-      <img src="/Imagens/5-cumulative-density-function.PNG" style="max-height: 400px;">
+      <img src="/Imagens/5-cumulative-density-function.PNG" height="400px">
       <h4>Probability Desity Function</h4>
-      <img src="/Imagens/6-probability-density_function.PNG" style="max-height: 400px;">
+      <img src="/Imagens/6-probability-density_function.PNG" height="400px">
       <h4>Indicator comparisons</h4>
-      <img src="/Imagens/7-all.PNG" style="max-height: 400px;">
+      <img src="/Imagens/7-all.PNG" height="400px">
       <h4>K-core</h4>
-      <img src="/Imagens/8-k-core_sociopatterns.PNG" style="max-height: 400px;">    
+      <img src="/Imagens/8-k-core_sociopatterns.PNG" height="400px">    
     </section>
   </li>
 </ul>
@@ -82,18 +82,20 @@
         Foi utilizado o arquivo cmf.graphml no programa Gephi, nele extraímos as informações estatísticas da rede como os valores do Grau médio (degree, indegree, outdegree), Modularidade (modularity_class) e o valor de Excentricidade (eccentricity).<br/>
         Essas informações foram extraídas como os arquivos U3Finalnodes.csv e U3Finaledges.csv, inserimos o U3Finalnodes.csv em um DataFrame e dele extraimos um histograma utilizando a coluna ‘degree’ do arquivo:
       </p>
-      <img src="/Imagens/histograma.PNG" style="max-height: 400px;">
+      <img src="/Imagens/histograma.PNG" height="400px">
       <p>
         A partir do histograma criamos uma coluna para classificar os dados da coluna ‘degree’ em seis grupos, A, B, C, D, E e F, onde se:<br/>
-        <strong>Grau <= 70 -> Grupo A (Roxo)<br/>
-        70 < Grau <= 140 -> Grupo B (Azul)<br/>
-        140 < Grau <= 210 -> Grupo C (Verde)<br/>
-        210 < Grau <= 280 -> Grupo D (Rosa)<br/>
-        280 < Grau <= 490 -> Grupo E (Laranja)<br/>
-        Grau > 490 -> Grupo F (Verde escuro)<br/></strong>
+        <strong>
+          Grau menor que 70 -> Grupo A (Roxo)<br/>
+          Grau entre 70 e 140 -> Grupo B (Azul)<br/>
+          Grau entre 140 e 210 -> Grupo C (Verde)<br/>
+          Grau entre 210 e 280 -> Grupo D (Rosa)<br/>
+          Grau entre 280 e 490 -> Grupo E (Laranja)<br/>
+          Grau maior 490 -> Grupo F (Verde escuro)<br/>
+        <strong>
         Depois inserimos a coluna no dataframe e exportamos como U3Final2nodes.csv, que foi inserido no gephi para analisar o gráfico com a nova métrica que criamos, ‘group’, obtivemos o seguinte gráfico:
       </p>
-      <img src="/Imagens/networkGit.PNG" style="max-height: 400px;">
+      <img src="/Imagens/networkGit.PNG" height="400px">
     </section>
   </li>
   <li>
@@ -102,7 +104,7 @@
       <p>
         Para visualizar a rede no Retina, será necessário acessar o link <a href="https://ouestware.gitlab.io/retina/beta/#/">https://ouestware.gitlab.io/retina/beta/#/</a> e adicionar manualmente o arquivo U3.graphml.<br/>
       </p>
-      <img src="/Imagens/networkRetina.PNG" style="max-height: 400px;">
+      <img src="/Imagens/networkRetina.PNG" height="400px">
     </section>
   </li>
   <li>
@@ -111,7 +113,7 @@
       <p>
         Depois utilizamos o site <a href="https://jacomyma.github.io/gephisto/">Gephisto</a>, lá foi inserido o arquivo U3.graphml e foi obtido a seguinte imagem<br/>
       </p>
-      <img src="/Imagens/networkGephisto.PNG" style="max-height: 400px;">
+      <img src="/Imagens/networkGephisto.PNG" height="400px">
     </section>
   </li>
 <ul>
