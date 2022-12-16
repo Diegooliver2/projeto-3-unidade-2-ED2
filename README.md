@@ -92,7 +92,7 @@
           Grau entre 210 e 280 -> Grupo D (Rosa)<br/>
           Grau entre 280 e 490 -> Grupo E (Laranja)<br/>
           Grau maior 490 -> Grupo F (Verde escuro)<br/>
-        <strong>
+        </strong>
         Depois inserimos a coluna no dataframe e exportamos como U3Final2nodes.csv, que foi inserido no gephi para analisar o gráfico com a nova métrica que criamos, ‘group’, obtivemos o seguinte gráfico:
       </p>
       <img src="/Imagens/networkGit.PNG" height="400px">
