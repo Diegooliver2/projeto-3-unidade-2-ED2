@@ -84,13 +84,13 @@
       </p>
       <img src="/Imagens/histograma.PNG" height="500px">
       <p>
-        A partir do histograma criamos uma coluna para classificar os dados da coluna ‘degree’ em seis grupos, A, B, C, D, E e F, onde se:
-        Grau <= 70 -> Grupo A 
-        70 < Grau <= 140 -> Grupo B
-        140 < Grau <= 210 -> Grupo C
-        210 < Grau <= 280 -> Grupo D
-        280 < Grau <= 490 -> Grupo E
-        Grau > 490 -> Grupo F
+        A partir do histograma criamos uma coluna para classificar os dados da coluna ‘degree’ em seis grupos, A, B, C, D, E e F, onde se:</br>
+        Grau <= 70 -> Grupo A</br>
+        70 < Grau <= 140 -> Grupo B</br>
+        140 < Grau <= 210 -> Grupo C</br>
+        210 < Grau <= 280 -> Grupo D</br>
+        280 < Grau <= 490 -> Grupo E</br>
+        Grau > 490 -> Grupo F</br>
         Depois inserimos a coluna no dataframe e exportamos como U3Final2nodes.csv, que foi inserido no gephi para analisa o gráfico com a nova métrica que criamos, ‘group’, obtivemos o seguinte gráfico:
       </p>
       <img src="/Imagens/networkGit.PNG" height="500px">
