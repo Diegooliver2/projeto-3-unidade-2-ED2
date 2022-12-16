@@ -116,5 +116,5 @@
       <img src="/Imagens/networkGephisto.jpeg" height="400px">
     </section>
   </li>
-<ul>
+</ul>
 <pre><h3>Link para o network no github pages: <a href="https://diegooliver2.github.io/projeto-3-unidade-2-ED2/network/index.html">https://diegooliver2.github.io/projeto-3-unidade-2-ED2/network/index.html</a></h3></pre>
