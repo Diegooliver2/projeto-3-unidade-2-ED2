@@ -73,3 +73,27 @@
 </ul>
 <pre><h3>Link para pasta com os gráficos no drive: <a href="https://drive.google.com/drive/folders/1v-Vcb8yu-hCSTb-12baKazKUKs9bBoCN?usp=sharing">https://drive.google.com/drive/folders/1v-Vcb8yu-hCSTb-12baKazKUKs9bBoCN?usp=sharing</a></h3></pre>
 <pre><h3>Link para vídeo com descrição dos resultados: <a href="https://www.loom.com/share/c611f8dba0644f34b9092a77dcc29f70">https://www.loom.com/share/c611f8dba0644f34b9092a77dcc29f70</a></h3></pre>
+<h2>Vizualizações de análise de rede:</h2>
+<ul>
+  <li>
+    <section>
+      <h4>Métricas para criação das comunidades</h4>
+      <p>
+        Foi utilizado o arquivo cmf.graphml no programa Gephi, nele extraímos as informações estatísticas da rede como os valores do Grau médio (degree, indegree, outdegree), Modularidade (modularity_class) e o valor de Excentricidade (eccentricity).</br>
+        Essas informações foram extraídas como os arquivos U3Finalnodes.csv e U3Finaledges.csv, inserimos o U3Finalnodes.csv em um DataFrame e dele extraimos um histograma utilizando a coluna ‘degree’ do arquivo:
+      </p>
+      <img src="/Imagens/histograma.PNG" height="500px">
+      <p>
+        A partir do histograma criamos uma coluna para classificar os dados da coluna ‘degree’ em seis grupos, A, B, C, D, E e F, onde se:
+        Grau <= 70 -> Grupo A 
+        70 < Grau <= 140 -> Grupo B
+        140 < Grau <= 210 -> Grupo C
+        210 < Grau <= 280 -> Grupo D
+        280 < Grau <= 490 -> Grupo E
+        Grau > 490 -> Grupo F
+        Depois inserimos a coluna no dataframe e exportamos como U3Final2nodes.csv, que foi inserido no gephi para analisa o gráfico com a nova métrica que criamos, ‘group’, obtivemos o seguinte gráfico:
+      </p>
+      <img src="/Imagens/networkGit.PNG" height="500px">
+    </section>
+  </li>
+<ul>
