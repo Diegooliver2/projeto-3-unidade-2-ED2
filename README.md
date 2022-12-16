@@ -86,12 +86,12 @@
       <p>
         A partir do histograma criamos uma coluna para classificar os dados da coluna ‘degree’ em seis grupos, A, B, C, D, E e F, onde se:<br/>
         <strong>
-          Grau menor que 70 -> Grupo A (Roxo)<br/>
-          Grau entre 70 e 140 -> Grupo B (Azul)<br/>
-          Grau entre 140 e 210 -> Grupo C (Verde)<br/>
-          Grau entre 210 e 280 -> Grupo D (Rosa)<br/>
-          Grau entre 280 e 490 -> Grupo E (Laranja)<br/>
-          Grau maior 490 -> Grupo F (Verde escuro)<br/>
+          Grau menor que 70 -> Grupo 1 (Roxo)<br/>
+          Grau entre 70 e 140 -> Grupo 3 (Verde)<br/>
+          Grau entre 140 e 210 -> Grupo 2 (Azul)<br/>
+          Grau entre 210 e 280 -> Grupo 6 (Verde escuro)<br/>
+          Grau entre 280 e 490 -> Grupo 5 (Laranja)<br/>
+          Grau maior 490 -> Grupo 4 (Rosa)<br/>
         </strong>
         Depois inserimos a coluna no dataframe e exportamos como U3Final2nodes.csv, que foi inserido no gephi para analisar o gráfico com a nova métrica que criamos, ‘group’, obtivemos o seguinte gráfico:
       </p>
