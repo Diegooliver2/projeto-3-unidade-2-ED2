@@ -118,3 +118,4 @@
   </li>
 </ul>
 <pre><h3>Link para o network no github pages: <a href="https://diegooliver2.github.io/projeto-3-unidade-2-ED2/network/index.html">https://diegooliver2.github.io/projeto-3-unidade-2-ED2/network/index.html</a></h3></pre>
+<pre><h3>Link para vídeo: <a href="https://www.loom.com/share/d96ee4641186429b90b7b979d909d2e5">https://www.loom.com/share/d96ee4641186429b90b7b979d909d2e5</a></h3></pre>
