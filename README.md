@@ -113,7 +113,7 @@
       <p>
         Depois utilizamos o site <a href="https://jacomyma.github.io/gephisto/">Gephisto</a>, lá foi inserido o arquivo U3.graphml e foi obtido a seguinte imagem<br/>
       </p>
-      <img src="/Imagens/networkGephisto.PNG" height="400px">
+      <img src="/Imagens/networkGephisto.jpeg" height="400px">
     </section>
   </li>
 <ul>
