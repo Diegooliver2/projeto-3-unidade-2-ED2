@@ -115,7 +115,7 @@
       </p>
       <img src="/Imagens/networkGephisto.jpeg" height="400px">
       <p>
-      Através da imagem gerada pelo Gephisto, vemos que ele destacou os nós com graus altos, destacando jogadores, times de futebol, países participantes da copa, Cidades que sediaram a copa do mundo e anos das copas.
+      Através da imagem gerada pelo Gephisto, vemos que ele destacou os nós com graus altos, destacando jogadores, times de futebol, países participantes da copa, Cidades que sediaram a copa do mundo e anos das copas.<br/>
         Os nós que possuíam graus muito baixos não foram muito destacados, possuíam cor das arestas, enquanto os nós de grau maior possuíam cores de sua determinada comunidade, no caso, a métrica que criamos, grupos separados por nível de grau, na qual ele pertencia, que são predominantemente os grupo rosa (6), verde (7) e amarelo (5).
       </p>
     </section>
